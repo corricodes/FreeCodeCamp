@@ -15,9 +15,9 @@
         <h1>HTML/CSS Quiz</h1>
         <nav>
             <ul>
-                <li><a href="#student-info">INFO</a></li>
-                <li><a href="#html-questions">HTML</a></li>
-                <li><a href="#css-questions">CSS</a></li>
+                <li><a href="#student-info" accesskey="i">INFO</a></li>
+                <li><a href="#html-questions" accesskey="h">HTML</a></li>
+                <li><a href="#css-questions" accesskey="c">CSS</a></li>
             </ul>
         </nav>
     </header>
@@ -101,15 +101,25 @@
                         </select>
                     </div>
                     <div class="question-block">
-                        <label>Do you have any questions:</label>
+                        <label for="css-questions">Do you have any questions:</label>
                     </div>
                     <div class="answer">
-
+                        <textarea id="css-questions" name="css-questions" rows="5" cols="24"
+                            placeholder="Who is flexbox..."></textarea>
                     </div>
                 </div>
             </section>
+            <button type="submit">Submit</button>
         </form>
     </main>
+    <footer>
+        <address>
+            <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+            San Francisco<br />
+            California<br />
+            USA
+        </address>
+    </footer>
 </body>
 
 </html>
