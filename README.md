@@ -5,4 +5,4 @@
 
 - ⚡ [Responsive Web Design Certificate](https://www.freecodecamp.org/certification/corricodes/responsive-web-design)
 
-- 👨‍💻 Here's the link to my portfolio [https://corricodes.netlify.app/](https://corricodes.netlify.app/)
+- 👨‍💻 Here's the link to my [porfolio](https://corricodes.netlify.app/)
