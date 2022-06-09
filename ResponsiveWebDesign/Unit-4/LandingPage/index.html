@@ -3,24 +3,25 @@
 
 <head>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-        <title>Landing Page</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
 </head>
 
 <body>
     <div id="page-wrapper">
         <header id="header">
             <div class="logo">
-                <img id="header-img"
-                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-                    alt="original trombones logo" />
+                <img id="header-img" src="https://corricodes.netlify.app/demos/music-site/logo.png"
+                    alt="longtonesmusic logo" />
             </div>
 
             <nav id="nav-bar">
                 <ul>
-                    <li><a class="nav-link" href="#features">Features</a></li>
-                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link" href="#lessons">Lessons</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
                     <li><a class="nav-link" href="#pricing">Pricing</a></li>
                 </ul>
             </nav>
@@ -29,59 +30,67 @@
         <div class="container"></div>
 
         <section id="hero">
-            <h2>Handcrafted, home-made masterpieces</h2>
+            <h2>Email us for information on music lessons!</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <input name="email" id="email" type="email" placeholder="Enter your email address" required />
-                <input id="submit" type="submit" value="Get Started" class="btn" />
+                <input id="submit" type="submit" value="Email us!" class="btn" />
             </form>
         </section>
 
         <div class="container">
-            <section id="features">
+            <section id="lessons">
                 <div class="grid">
-                    <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+                    <div class="icon"><i class="uil uil-microphone"></i></div>
                     <div class="desc">
-                        <h2>Premium Materials</h2>
+                        <h2>Voice lessons</h2>
                         <p>
-                            Our trombones use the shiniest brass which is sourced locally.
-                            This will increase the longevity of your purchase.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ratione architecto iusto, enim
+                            voluptatem minus!
                         </p>
                     </div>
                 </div>
                 <div class="grid">
-                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="icon"><i class="uil uil-music"></i></i></div>
                     <div class="desc">
-                        <h2>Fast Shipping</h2>
+                        <h2>Piano lessons</h2>
                         <p>
-                            We make sure you recieve your trombone as soon as we have
-                            finished making it. We also provide free returns if you are not
-                            satisfied.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dignissimos cum labore
+                            quos, quisquam adipisci.
                         </p>
                     </div>
                 </div>
                 <div class="grid">
                     <div class="icon">
-                        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                        <i class="uil uil-edit"></i>
                     </div>
                     <div class="desc">
-                        <h2>Quality Assurance</h2>
+                        <h2>Music theory</h2>
                         <p>
-                            For every purchase you make, we will ensure there are no damages
-                            or faults and we will check and test the pitch of your
-                            instrument.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fugiat dolores, deleniti
+                            in quis assumenda!
                         </p>
                     </div>
                 </div>
             </section>
-            <section id="how-it-works">
-                <iframe id="video" height="315"
-                    src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
-                    frameborder="0" allowfullscreen></iframe>
+            <section id="about">
+                <div class="about">
+                    <h2>About LongTonesMusic</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis harum pariatur quod nulla
+                        cumque doloribus quia, sequi dicta animi. Cupiditate non asperiores, dolorem ducimus quam et
+                        temporibus quod veritatis eius.
+                    </p>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
             </section>
             <section id="pricing">
-                <div class="product" id="tenor">
-                    <div class="level">Tenor Trombone</div>
-                    <h2>$600</h2>
+                <div class="product" id="one">
+                    <div class="level">One 30-min lesson</div>
+                    <h2>$30</h2>
                     <ol>
                         <li>Lorem ipsum.</li>
                         <li>Lorem ipsum.</li>
@@ -90,9 +99,9 @@
                     </ol>
                     <button class="btn">Select</button>
                 </div>
-                <div class="product" id="bass">
-                    <div class="level">Bass Trombone</div>
-                    <h2>$900</h2>
+                <div class="product" id="four">
+                    <div class="level">Four 30-min lessons</div>
+                    <h2>$110</h2>
                     <ol>
                         <li>Lorem ipsum.</li>
                         <li>Lorem ipsum.</li>
@@ -101,12 +110,12 @@
                     </ol>
                     <button class="btn">Select</button>
                 </div>
-                <div class="product" id="valve">
-                    <div class="level">Valve Trombone</div>
-                    <h2>$1200</h2>
+                <div class="product" id="eight">
+                    <div class="level">Eight 30-min lessons</div>
+                    <h2>$200</h2>
                     <ol>
-                        <li>Plays similar to a Trumpet</li>
-                        <li>Great for Jazz Bands</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
                         <li>Lorem ipsum dolor.</li>
                         <li>Lorem ipsum.</li>
                     </ol>
@@ -119,7 +128,7 @@
                     <li><a href="#">Terms</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <span>Copyright 2016, Original Trombones</span>
+                <span>Copyright 2022, LongTonesMusic</span>
             </footer>
         </div>
     </div>
