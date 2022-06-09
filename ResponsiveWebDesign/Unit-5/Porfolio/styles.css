@@ -23,24 +23,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 75em) {
-  html {
-    font-size: 60%;
-  }
-}
-
-@media (max-width: 61.25em) {
-  html {
-    font-size: 58%;
-  }
-}
-
-@media (max-width: 28.75em) {
-  html {
-    font-size: 55%;
-  }
-}
-
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
@@ -95,16 +77,6 @@ img {
   margin-right: 2rem;
 }
 
-@media (max-width: 28.75em) {
-  .nav {
-    justify-content: center;
-  }
-
-  .nav-list {
-    margin: 0 1rem;
-  }
-}
-
 .nav-list a {
   display: block;
   font-size: 2.2rem;
@@ -122,33 +94,28 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #551a8b 0%, #000 100%);
+  background-image: url(https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-red);
+  color: var(--main-white);
 }
 
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: var(--main-blue);
+  background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
 }
 
 .projects-section-header {
-  max-width: 640px;
+  max-width: 800px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
-}
-
-@media (max-width: 28.75em) {
-  .projects-section-header {
-    font-size: 4rem;
-  }
 }
 
 .projects-grid {
@@ -159,16 +126,6 @@ img {
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 6rem;
-}
-
-@media (max-width: 30.625em) {
-  .projects-section {
-    padding: 6rem 1rem;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 .project {
@@ -239,12 +196,6 @@ img {
   font-size: 6rem;
 }
 
-@media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 4rem;
-  }
-}
-
 .contact-section-header > p {
   font-style: italic;
 }
@@ -289,5 +240,55 @@ footer i {
   footer {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 28.75em) {
+  .projects-section-header {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 6rem 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
   }
 }
