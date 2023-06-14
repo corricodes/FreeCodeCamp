@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **completing the Front End Development Libraries Certification.**
 
-- ⚡ [JavaScript Algorithms & Data Structures Certificate]([https://www.freecodecamp.org/certification/corricodes/javascript-algorithms-and-data-structures])
+- ⚡ [JavaScript Algorithms & Data Structures Certificate](https://www.freecodecamp.org/certification/corricodes/javascript-algorithms-and-data-structures)
 
 - ⚡ [Responsive Web Design Certificate](https://www.freecodecamp.org/certification/corricodes/responsive-web-design)
 
